@@ -56,11 +56,13 @@ let createPerson = function () {
 //Exercice 10 : Retourner la valeur de l\'index nom du tableau person.', function() {
 let returnName = function (array) {
   return array.name;
+  // array['name'];
 }
 
 //Exercice 11 : Stocker tous les index du tableau person dans des variables séparées et les retourner dans une même phrase de type : "Bonjour, je suis Jean. J\'ai 45 ans et j\'habite Paris."', function() {
 let returnSentence = function (array) {
   let result = "Bonjour, je suis " + array.name + ". J'ai " + array.age + " ans et j'habite " + array.city + ".";
+  // let result = "Bonjour, je suis " + array['name'] + ". J'ai " + array['age'] + " ans et j'habite " + array['city'] + ".";
   return result;
 }
 
