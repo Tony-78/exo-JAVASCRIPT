@@ -1,0 +1,19 @@
+.pink {
+    color: rgb(240, 9, 209);
+}
+
+.blue {
+    color: blue;
+}
+
+.violet {
+    color: rgb(122, 51, 122);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
