@@ -8,15 +8,26 @@
 <body>
 
     <form>
+
+        <div>
             <label for="name">Saisissez votre nom</label> :
             <input type="text" name="name" id="name">
+            <span id="errorName"></span>
+        </div>
         
+        <div>
             <label for="email">Saisissez votre adresse mail</label> :
             <input type="email" name="email" id="email">
-            
+            <span id="errorMail"></span>
+        </div>
+        
+        <div>
             <label for="age">Saisissez votre âge</label> :
             <input type="text" name="age" id="age">
-            
+            <span id="errorAge"></span>
+        </div>
+          
+        <input type="submit" value="Envoyer" id="submitButton">
     </form>
 
 <script src="script.js"></script>

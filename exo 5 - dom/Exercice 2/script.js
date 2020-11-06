@@ -1,8 +1,8 @@
 let button = document.getElementById("button");
+let password1 = document.getElementById("password1");
+let password2 = document.getElementById("password2");
 button.addEventListener('click', function (e) {
     e.preventDefault();
-    let password1 = document.getElementById("password1");
-    let password2 = document.getElementById("password2");
     if (password1.value == password2.value) {
         password1.setAttribute("class", "green");
         password2.setAttribute("class", "green");
@@ -12,3 +12,4 @@ button.addEventListener('click', function (e) {
     }
 });
 
+// ou classList au lieu de setAttribute
